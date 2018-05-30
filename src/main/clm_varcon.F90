@@ -80,7 +80,7 @@ module clm_varcon
   real(r8) :: bdsno = 250._r8                               ! bulk density snow (kg/m**3)
   real(r8) :: alpha_aero = 1.0_r8                           ! constant for aerodynamic parameter weighting
   real(r8) :: tlsai_crit = 2.0_r8                           ! critical value of elai+esai for which aerodynamic parameters are maximum
-  real(r8) :: watmin = 0.01_r8                              ! minimum soil moisture (mm)
+  real(r8) :: watmin = 0.03_r8                              ! minimum soil moisture (mm) ! JMR 5/30/2018 Just for Git practice.
 
   real(r8) :: re = SHR_CONST_REARTH*0.001_r8                ! radius of earth (km)
 
